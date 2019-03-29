@@ -13,8 +13,7 @@ public class ResultUtil {
 	public static Map<String, Object> transactionResult(String code) {
 		Map<String, Object> resultMap = new HashMap<String, Object>();
 		resultMap.put(RESULT_CODE, code);
-		if(!MessageCode.S.equals(code))
-			resultMap.put(RESULT_MESSAGE, MessageUtil.getMessage(code));
+		resultMap.put(RESULT_MESSAGE, MessageUtil.getMessage(code));
 		logger.info(MessageUtil.getMessage(code));
 		return resultMap;
 	}

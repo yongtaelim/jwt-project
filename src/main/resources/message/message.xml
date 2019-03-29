@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 	<entry key="S">Success!!</entry>
 	
 	<entry key="E0000">Token Authentication Failed!!</entry>
 	<entry key="E0001">Token Timeout!!</entry>
+	<entry key="E0002">DB Select Failed!!</entry>
 </properties>
